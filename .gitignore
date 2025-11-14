@@ -1,0 +1,8 @@
+# Ignore IDE files
+.idea/
+
+# Ignore node dependencies (including Bootstrap)
+node_modules/
+
+# Optional: ignore lock file if you don't want to track it
+# package-lock.json

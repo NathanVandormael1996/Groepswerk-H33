@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+<div class="container py-4">
+    <div class="form-check form-switch">
+        <input id="switch" class="form-check-input" type="checkbox" role="switch">
+        <label id="label_switch" class="form-check-label" for="switch">Light Mode</label>
+    </div>
+    <h2 class="mb-3">
+        🛍️ Mini Webshop
+        <span id="cart_badge" class="badge bg-warning text-dark">0</span>
+        <span id="price" class="badge bg-warning text-dark">Total Price: </span>
+    </h2>
+    <button id="clear_btn" class="btn btn-primary">Clear Cart</button>
+    <h5 class="mt-4">Producten</h5>
+    <div id="product_list"></div>
+    <h5 class="mt-4">Aanraders voor jou</h5>
+    <div id="rec_list"></div>
+</div>
+</body>
+</html>
